@@ -1,0 +1,33 @@
+/* In CSS classes defined with . (Starting with dot) */
+.firstdiv{
+    color: red;
+}
+
+.seconddiv{
+    color: blue;
+}
+
+/* Ids starts with # */
+#singledout{
+    color: cadetblue;
+    text-decoration: line-through;
+}
+
+/* (*) is a selector to select every element on page */
+/* *{
+    color: blue;
+} */
+
+h3 + ul{
+    border: blue dotted 4px;
+
+}
+
+li a{
+    color: green;
+}
+
+li a[href="https://google.com"]{
+    background-color: orangered;
+    border: 2px solid palevioletred;
+}
